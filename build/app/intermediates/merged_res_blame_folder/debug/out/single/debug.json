@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-xxxhdpi_hearth7.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-xxxhdpi/hearth7.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-xxhdpi_hearth7.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-xxhdpi/hearth7.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-hdpi_hearth7.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-hdpi/hearth7.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-mdpi_hearth7.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-mdpi/hearth7.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/drawable-v21_hearth7.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/drawable-v21/hearth7.png"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/drawable-v21_launch_background.xml.flat",
+        "source": "com.dyuta6.dating_app-main-39:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.dyuta6.dating_app-merged_res-45:/mipmap-xhdpi_hearth7.png.flat",
+        "source": "com.dyuta6.dating_app-main-39:/mipmap-xhdpi/hearth7.png"
+    }
+]

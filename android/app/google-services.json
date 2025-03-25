@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "133007302041",
+    "project_id": "dating-app-3bee4",
+    "storage_bucket": "dating-app-3bee4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133007302041:android:c7c2a2f33eb896c3360708",
+        "android_client_info": {
+          "package_name": "com.dyuta6.dating_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133007302041-d5s4q77ooodl0kifmvnn74n9do19kv9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiW_-itmWVrVoGN3TIZENDeBR2qI4RMQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133007302041-d5s4q77ooodl0kifmvnn74n9do19kv9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133007302041:android:69aeabe378e4ad7b360708",
+        "android_client_info": {
+          "package_name": "com.example.dating_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133007302041-d5s4q77ooodl0kifmvnn74n9do19kv9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiW_-itmWVrVoGN3TIZENDeBR2qI4RMQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133007302041-d5s4q77ooodl0kifmvnn74n9do19kv9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

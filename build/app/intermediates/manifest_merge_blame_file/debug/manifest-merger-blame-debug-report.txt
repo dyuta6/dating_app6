@@ -1,0 +1,921 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dyuta6.dating_app"
+4    android:versionCode="4"
+5    android:versionName="1.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\dyuta\Documents\dating_app\dating_app\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\dyuta\Documents\dating_app\dating_app\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:firebase_analytics] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-79
+16-->[:firebase_analytics] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+17-->[:firebase_analytics] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-68
+17-->[:firebase_analytics] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-65
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-77
+18-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-74
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->[:flutter_local_notifications] C:\Users\dyuta\Documents\dating_app\dating_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-66
+19-->[:flutter_local_notifications] C:\Users\dyuta\Documents\dating_app\dating_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-63
+20    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+20-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:25:5-79
+20-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:25:22-76
+21    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+21-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:26:5-88
+21-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:26:22-85
+22    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:27:5-82
+22-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:27:22-79
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:26:22-79
+24    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" /> <!-- Android package visibility setting -->
+24-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:29:5-83
+24-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:29:22-80
+25    <queries>
+25-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:35:5-51:15
+26
+27        <!-- For browser content -->
+28        <intent>
+28-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:38:9-44:18
+29            <action android:name="android.intent.action.VIEW" />
+29-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+29-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+30
+31            <category android:name="android.intent.category.BROWSABLE" />
+31-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+31-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+32
+33            <data android:scheme="https" />
+33-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+33-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+34        </intent>
+35        <!-- End of browser content -->
+36        <!-- For CustomTabsService -->
+37        <intent>
+37-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:47:9-49:18
+38            <action android:name="android.support.customtabs.action.CustomTabsService" />
+38-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:48:13-90
+38-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:48:21-87
+39        </intent>
+40        <!-- End of CustomTabsService -->
+41    </queries>
+42
+43    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+43-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:26:5-110
+43-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:26:22-107
+44    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+44-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\dyuta\.gradle\caches\transforms-3\af9c666d595615b4c82767b8ed233ac8\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+44-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\dyuta\.gradle\caches\transforms-3\af9c666d595615b4c82767b8ed233ac8\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+45    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+45-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+45-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
+46
+47    <permission
+47-->[androidx.core:core:1.13.1] C:\Users\dyuta\.gradle\caches\transforms-3\3343cf117fd05bf96b98a4b014516c44\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+48        android:name="com.dyuta6.dating_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+48-->[androidx.core:core:1.13.1] C:\Users\dyuta\.gradle\caches\transforms-3\3343cf117fd05bf96b98a4b014516c44\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+49        android:protectionLevel="signature" />
+49-->[androidx.core:core:1.13.1] C:\Users\dyuta\.gradle\caches\transforms-3\3343cf117fd05bf96b98a4b014516c44\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+50
+51    <uses-permission android:name="com.dyuta6.dating_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+51-->[androidx.core:core:1.13.1] C:\Users\dyuta\.gradle\caches\transforms-3\3343cf117fd05bf96b98a4b014516c44\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+51-->[androidx.core:core:1.13.1] C:\Users\dyuta\.gradle\caches\transforms-3\3343cf117fd05bf96b98a4b014516c44\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+52
+53    <application
+54        android:name="android.app.Application"
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.13.1] C:\Users\dyuta\.gradle\caches\transforms-3\3343cf117fd05bf96b98a4b014516c44\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+56        android:debuggable="true"
+57        android:extractNativeLibs="true"
+58        android:icon="@mipmap/hearth7"
+59        android:label="Jorny" >
+60        <activity
+61            android:name="com.example.dating_app.MainActivity"
+62            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+63            android:exported="true"
+64            android:hardwareAccelerated="true"
+65            android:launchMode="singleTop"
+66            android:theme="@style/LaunchTheme"
+67            android:windowSoftInputMode="adjustResize" >
+68
+69            <!--
+70                 Specifies an Android theme to apply to this Activity as soon as
+71                 the Android process has started. This theme is visible to the user
+72                 while the Flutter UI initializes. After that, this theme continues
+73                 to determine the Window background behind the Flutter UI.
+74            -->
+75            <meta-data
+76                android:name="io.flutter.embedding.android.NormalTheme"
+77                android:resource="@style/NormalTheme" />
+78
+79            <intent-filter>
+80                <action android:name="android.intent.action.MAIN" />
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+83            </intent-filter>
+84        </activity>
+85        <!--
+86             Don't delete the meta-data below.
+87             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+88        -->
+89        <meta-data
+90            android:name="flutterEmbedding"
+91            android:value="2" />
+92        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+93        <meta-data
+94            android:name="com.google.android.gms.ads.APPLICATION_ID"
+95            android:value="ca-app-pub-5662570486450589~2969846484" />
+96
+97        <service
+97-->[:cloud_firestore] C:\Users\dyuta\Documents\dating_app\dating_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+98            android:name="com.google.firebase.components.ComponentDiscoveryService"
+98-->[:cloud_firestore] C:\Users\dyuta\Documents\dating_app\dating_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+99            android:directBootAware="true"
+99-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:32:13-43
+100            android:exported="false" >
+100-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\dyuta\.gradle\caches\transforms-3\fc1ae18e0ba7bcfd794665adc6b8ad5d\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:16:13-37
+101            <meta-data
+101-->[:cloud_firestore] C:\Users\dyuta\Documents\dating_app\dating_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+102-->[:cloud_firestore] C:\Users\dyuta\Documents\dating_app\dating_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:cloud_firestore] C:\Users\dyuta\Documents\dating_app\dating_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+104            <meta-data
+104-->[:firebase_analytics] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+105-->[:firebase_analytics] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-128
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:firebase_analytics] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-82
+107            <meta-data
+107-->[:firebase_auth] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+108-->[:firebase_auth] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_auth] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+110            <meta-data
+110-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-38:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+111-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:17-128
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:17-82
+113            <meta-data
+113-->[:firebase_storage] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+114-->[:firebase_storage] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-126
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_storage] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+116            <meta-data
+116-->[:firebase_core] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+117                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+117-->[:firebase_core] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[:firebase_core] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\dyuta\.gradle\caches\transforms-3\fc1ae18e0ba7bcfd794665adc6b8ad5d\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:17:13-19:85
+120                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+120-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\dyuta\.gradle\caches\transforms-3\fc1ae18e0ba7bcfd794665adc6b8ad5d\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:18:17-122
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\dyuta\.gradle\caches\transforms-3\fc1ae18e0ba7bcfd794665adc6b8ad5d\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:19:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\dyuta\.gradle\caches\transforms-3\fc1ae18e0ba7bcfd794665adc6b8ad5d\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:20:13-22:85
+123                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+123-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\dyuta\.gradle\caches\transforms-3\fc1ae18e0ba7bcfd794665adc6b8ad5d\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:21:17-111
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\dyuta\.gradle\caches\transforms-3\fc1ae18e0ba7bcfd794665adc6b8ad5d\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:22:17-82
+125            <meta-data
+125-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:37:13-39:85
+126                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+126-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:38:17-139
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:39:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+129                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+129-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:57:13-59:85
+132                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+132-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:58:17-122
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:59:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:60:13-62:85
+135                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+135-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:61:17-119
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:62:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\dyuta\.gradle\caches\transforms-3\349ef500ded9b11cb85291740b8b5d84\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+138                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+138-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\dyuta\.gradle\caches\transforms-3\349ef500ded9b11cb85291740b8b5d84\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\dyuta\.gradle\caches\transforms-3\349ef500ded9b11cb85291740b8b5d84\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\dyuta\.gradle\caches\transforms-3\349ef500ded9b11cb85291740b8b5d84\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+141                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+141-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\dyuta\.gradle\caches\transforms-3\349ef500ded9b11cb85291740b8b5d84\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\dyuta\.gradle\caches\transforms-3\349ef500ded9b11cb85291740b8b5d84\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\4ed05c4e14130cd8c86ec332503a88f7\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+144                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+144-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\4ed05c4e14130cd8c86ec332503a88f7\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\4ed05c4e14130cd8c86ec332503a88f7\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\4ed05c4e14130cd8c86ec332503a88f7\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+147                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+147-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\4ed05c4e14130cd8c86ec332503a88f7\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\4ed05c4e14130cd8c86ec332503a88f7\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\dyuta\.gradle\caches\transforms-3\fa1a3cfbf0c50d5e6696c5c1b4af21c4\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:25:13-27:85
+150                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+150-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\dyuta\.gradle\caches\transforms-3\fa1a3cfbf0c50d5e6696c5c1b4af21c4\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:26:17-120
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\dyuta\.gradle\caches\transforms-3\fa1a3cfbf0c50d5e6696c5c1b4af21c4\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:27:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\dyuta\.gradle\caches\transforms-3\fa1a3cfbf0c50d5e6696c5c1b4af21c4\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:28:13-30:85
+153                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+153-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\dyuta\.gradle\caches\transforms-3\fa1a3cfbf0c50d5e6696c5c1b4af21c4\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:29:17-117
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\dyuta\.gradle\caches\transforms-3\fa1a3cfbf0c50d5e6696c5c1b4af21c4\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:30:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\29da77da97ef54c7901cbfc97ab7bec8\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:12:13-14:85
+156                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+156-->[com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\29da77da97ef54c7901cbfc97ab7bec8\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:13:17-116
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\29da77da97ef54c7901cbfc97ab7bec8\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:14:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:35:13-37:85
+159                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+159-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:36:17-109
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:37:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\dyuta\.gradle\caches\transforms-3\4ae91e6c9d8572e93935ea07ebd75f55\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+162                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+162-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\dyuta\.gradle\caches\transforms-3\4ae91e6c9d8572e93935ea07ebd75f55\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\dyuta\.gradle\caches\transforms-3\4ae91e6c9d8572e93935ea07ebd75f55\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+164        </service>
+165        <service
+165-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-17:72
+166            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+166-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-107
+167            android:exported="false"
+167-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+168            android:permission="android.permission.BIND_JOB_SERVICE" />
+168-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-69
+169        <service
+169-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:19
+170            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+170-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-97
+171            android:exported="false" >
+171-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+172            <intent-filter>
+172-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+173                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+173-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+173-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+174            </intent-filter>
+175        </service>
+176
+177        <receiver
+177-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33:20
+178            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+178-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-98
+179            android:exported="true"
+179-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-36
+180            android:permission="com.google.android.c2dm.permission.SEND" >
+180-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-73
+181            <intent-filter>
+181-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+182                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+182-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+182-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+183            </intent-filter>
+184        </receiver>
+185
+186        <provider
+186-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-45:38
+187            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+187-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-102
+188            android:authorities="com.dyuta6.dating_app.flutterfirebasemessaginginitprovider"
+188-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-88
+189            android:exported="false"
+189-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
+190            android:initOrder="99" />
+190-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-35
+191        <provider
+191-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-17:20
+192            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+192-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-82
+193            android:authorities="com.dyuta6.dating_app.flutter.image_provider"
+193-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+194            android:exported="false"
+194-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+195            android:grantUriPermissions="true" >
+195-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-47
+196            <meta-data
+196-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+197                android:name="android.support.FILE_PROVIDER_PATHS"
+197-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+198                android:resource="@xml/flutter_image_picker_file_paths" />
+198-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+199        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+200        <service
+200-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-31:19
+201            android:name="com.google.android.gms.metadata.ModuleDependencies"
+201-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-78
+202            android:enabled="false"
+202-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-36
+203            android:exported="false" >
+203-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+204            <intent-filter>
+204-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+205                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+205-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-94
+205-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-91
+206            </intent-filter>
+207
+208            <meta-data
+208-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:36
+209                android:name="photopicker_activity:0:required"
+209-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-63
+210                android:value="" />
+210-->[:image_picker_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-33
+211        </service>
+212
+213        <meta-data
+213-->[:google_mobile_ads] C:\Users\dyuta\Documents\dating_app\dating_app\build\google_mobile_ads\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+214            android:name="io.flutter.embedded_views_preview"
+214-->[:google_mobile_ads] C:\Users\dyuta\Documents\dating_app\dating_app\build\google_mobile_ads\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-61
+215            android:value="true" />
+215-->[:google_mobile_ads] C:\Users\dyuta\Documents\dating_app\dating_app\build\google_mobile_ads\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
+216
+217        <activity
+217-->[:url_launcher_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+218            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+218-->[:url_launcher_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+219            android:exported="false"
+219-->[:url_launcher_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+220            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+220-->[:url_launcher_android] C:\Users\dyuta\Documents\dating_app\dating_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+221
+222        <property
+222-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:30:9-32:61
+223            android:name="android.adservices.AD_SERVICES_CONFIG"
+223-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:31:13-65
+224            android:resource="@xml/ga_ad_services_config" />
+224-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:32:13-58
+225
+226        <activity
+226-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+227            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+227-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+228            android:excludeFromRecents="true"
+228-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+229            android:exported="true"
+229-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+230            android:launchMode="singleTask"
+230-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+231            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+231-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+232            <intent-filter>
+232-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+233                <action android:name="android.intent.action.VIEW" />
+233-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+233-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+234
+235                <category android:name="android.intent.category.DEFAULT" />
+235-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+235-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+236                <category android:name="android.intent.category.BROWSABLE" />
+236-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+236-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+237
+238                <data
+238-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+239                    android:host="firebase.auth"
+239-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+240                    android:path="/"
+240-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+241                    android:scheme="genericidp" />
+241-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+242            </intent-filter>
+243        </activity>
+244        <activity
+244-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+245            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+245-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+246            android:excludeFromRecents="true"
+246-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+247            android:exported="true"
+247-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+248            android:launchMode="singleTask"
+248-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+249            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+249-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+250            <intent-filter>
+250-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+251                <action android:name="android.intent.action.VIEW" />
+251-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+251-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+252
+253                <category android:name="android.intent.category.DEFAULT" />
+253-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+253-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+254                <category android:name="android.intent.category.BROWSABLE" />
+254-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+254-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+255
+256                <data
+256-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+257                    android:host="firebase.auth"
+257-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+258                    android:path="/"
+258-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+259                    android:scheme="recaptcha" />
+259-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\06e37e2401f911c0fa4f7220f2b9cfff\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+260            </intent-filter>
+261        </activity>
+262
+263        <receiver
+263-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:29:9-40:20
+264            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+264-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:30:13-78
+265            android:exported="true"
+265-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:31:13-36
+266            android:permission="com.google.android.c2dm.permission.SEND" >
+266-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:32:13-73
+267            <intent-filter>
+267-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+268                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+268-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+268-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+269            </intent-filter>
+270
+271            <meta-data
+271-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:37:13-39:40
+272                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+272-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:38:17-92
+273                android:value="true" />
+273-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:39:17-37
+274        </receiver>
+275        <!--
+276             FirebaseMessagingService performs security checks at runtime,
+277             but set to not exported to explicitly avoid allowing another app to call it.
+278        -->
+279        <service
+279-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:46:9-53:19
+280            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+280-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:47:13-82
+281            android:directBootAware="true"
+281-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:48:13-43
+282            android:exported="false" >
+282-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\dyuta\.gradle\caches\transforms-3\a6fb06a80b594fee31aefd7d82693766\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:49:13-37
+283            <intent-filter android:priority="-500" >
+283-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+284                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+284-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+284-->[:firebase_messaging] C:\Users\dyuta\Documents\dating_app\dating_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+285            </intent-filter>
+286        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+287        <activity
+287-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:56:9-61:43
+288            android:name="com.google.android.gms.ads.AdActivity"
+288-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:57:13-65
+289            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+289-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:58:13-122
+290            android:exported="false"
+290-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:59:13-37
+291            android:theme="@android:style/Theme.Translucent" />
+291-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:60:13-61
+292
+293        <provider
+293-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:63:9-68:43
+294            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+294-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:64:13-76
+295            android:authorities="com.dyuta6.dating_app.mobileadsinitprovider"
+295-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:65:13-73
+296            android:exported="false"
+296-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:66:13-37
+297            android:initOrder="100" />
+297-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:67:13-36
+298
+299        <service
+299-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:70:9-74:43
+300            android:name="com.google.android.gms.ads.AdService"
+300-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:71:13-64
+301            android:enabled="true"
+301-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:72:13-35
+302            android:exported="false" />
+302-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:73:13-37
+303
+304        <activity
+304-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:76:9-80:43
+305            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+305-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:77:13-82
+306            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+306-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:78:13-122
+307            android:exported="false" />
+307-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:79:13-37
+308        <activity
+308-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:81:9-88:43
+309            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+309-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:82:13-82
+310            android:excludeFromRecents="true"
+310-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:83:13-46
+311            android:exported="false"
+311-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:84:13-37
+312            android:launchMode="singleTask"
+312-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:85:13-44
+313            android:taskAffinity=""
+313-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:86:13-36
+314            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+314-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\dyuta\.gradle\caches\transforms-3\507e92713e369a2c16dcbd9c4aae7a42\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:87:13-72
+315
+316        <property
+316-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:30:9-32:61
+317            android:name="android.adservices.AD_SERVICES_CONFIG"
+317-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:31:13-65
+318            android:resource="@xml/gma_ad_services_config" />
+318-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\a8af136a2e52a1bc8a5d4e0980cd3951\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:32:13-58
+319
+320        <receiver
+320-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:29:9-33:20
+321            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+321-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:30:13-85
+322            android:enabled="true"
+322-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:31:13-35
+323            android:exported="false" >
+323-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:32:13-37
+324        </receiver>
+325
+326        <service
+326-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:35:9-38:40
+327            android:name="com.google.android.gms.measurement.AppMeasurementService"
+327-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:36:13-84
+328            android:enabled="true"
+328-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:37:13-35
+329            android:exported="false" />
+329-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:38:13-37
+330        <service
+330-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:39:9-43:72
+331            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+331-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:40:13-87
+332            android:enabled="true"
+332-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:41:13-35
+333            android:exported="false"
+333-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:42:13-37
+334            android:permission="android.permission.BIND_JOB_SERVICE" />
+334-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\dyuta\.gradle\caches\transforms-3\1d80d67b245c4797a78dc18247c8b25c\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:43:13-69
+335
+336        <provider
+336-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:23:9-28:39
+337            android:name="com.google.firebase.provider.FirebaseInitProvider"
+337-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:24:13-77
+338            android:authorities="com.dyuta6.dating_app.firebaseinitprovider"
+338-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:25:13-72
+339            android:directBootAware="true"
+339-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:26:13-43
+340            android:exported="false"
+340-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:27:13-37
+341            android:initOrder="100" />
+341-->[com.google.firebase:firebase-common:20.4.3] C:\Users\dyuta\.gradle\caches\transforms-3\12cfeb768e70c185daf0e75392d1cee1\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:28:13-36
+342
+343        <uses-library
+343-->[androidx.window:window:1.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\55ea48009bcf369bf980a8a5f4f58f58\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+344            android:name="androidx.window.extensions"
+344-->[androidx.window:window:1.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\55ea48009bcf369bf980a8a5f4f58f58\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+345            android:required="false" />
+345-->[androidx.window:window:1.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\55ea48009bcf369bf980a8a5f4f58f58\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+346        <uses-library
+346-->[androidx.window:window:1.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\55ea48009bcf369bf980a8a5f4f58f58\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+347            android:name="androidx.window.sidecar"
+347-->[androidx.window:window:1.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\55ea48009bcf369bf980a8a5f4f58f58\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+348            android:required="false" />
+348-->[androidx.window:window:1.2.0] C:\Users\dyuta\.gradle\caches\transforms-3\55ea48009bcf369bf980a8a5f4f58f58\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+349        <uses-library
+349-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\dyuta\.gradle\caches\transforms-3\225610b1995bf11e0818a0997cd5de72\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+350            android:name="android.ext.adservices"
+350-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\dyuta\.gradle\caches\transforms-3\225610b1995bf11e0818a0997cd5de72\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+351            android:required="false" />
+351-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\dyuta\.gradle\caches\transforms-3\225610b1995bf11e0818a0997cd5de72\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+352
+353        <activity
+353-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dyuta\.gradle\caches\transforms-3\c00a514b95eb8c3dc821cfc823bdfc01\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+354            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+354-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dyuta\.gradle\caches\transforms-3\c00a514b95eb8c3dc821cfc823bdfc01\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+355            android:exported="false"
+355-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dyuta\.gradle\caches\transforms-3\c00a514b95eb8c3dc821cfc823bdfc01\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+356            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+356-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dyuta\.gradle\caches\transforms-3\c00a514b95eb8c3dc821cfc823bdfc01\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+357
+358        <provider
+358-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
+359            android:name="androidx.startup.InitializationProvider"
+359-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:32:13-67
+360            android:authorities="com.dyuta6.dating_app.androidx-startup"
+360-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:33:13-68
+361            android:exported="false" >
+361-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:34:13-37
+362            <meta-data
+362-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+363                android:name="androidx.work.WorkManagerInitializer"
+363-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+364                android:value="androidx.startup" />
+364-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+365            <meta-data
+365-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\9ade4b4c8bbb069dd196f0fbfad7a963\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+366                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+366-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\9ade4b4c8bbb069dd196f0fbfad7a963\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+367                android:value="androidx.startup" />
+367-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\9ade4b4c8bbb069dd196f0fbfad7a963\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+368            <meta-data
+368-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+369                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+369-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+370                android:value="androidx.startup" />
+370-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+371        </provider>
+372
+373        <service
+373-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+374            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+374-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+375            android:directBootAware="false"
+375-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+376            android:enabled="@bool/enable_system_alarm_service_default"
+376-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+377            android:exported="false" />
+377-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+378        <service
+378-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+379            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+379-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+380            android:directBootAware="false"
+380-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+381            android:enabled="@bool/enable_system_job_service_default"
+381-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+382            android:exported="true"
+382-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+383            android:permission="android.permission.BIND_JOB_SERVICE" />
+383-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+384        <service
+384-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+385            android:name="androidx.work.impl.foreground.SystemForegroundService"
+385-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+386            android:directBootAware="false"
+386-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+387            android:enabled="@bool/enable_system_foreground_service_default"
+387-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+388            android:exported="false" />
+388-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+389
+390        <receiver
+390-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+391            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+391-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+392            android:directBootAware="false"
+392-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+393            android:enabled="true"
+393-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+394            android:exported="false" />
+394-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+395        <receiver
+395-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+396            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+396-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+397            android:directBootAware="false"
+397-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+398            android:enabled="false"
+398-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+399            android:exported="false" >
+399-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+400            <intent-filter>
+400-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+401                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+401-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+401-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+402                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+402-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+402-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+403            </intent-filter>
+404        </receiver>
+405        <receiver
+405-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+406            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+406-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+407            android:directBootAware="false"
+407-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+408            android:enabled="false"
+408-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+409            android:exported="false" >
+409-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+410            <intent-filter>
+410-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+411                <action android:name="android.intent.action.BATTERY_OKAY" />
+411-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+411-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+412                <action android:name="android.intent.action.BATTERY_LOW" />
+412-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+412-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+413            </intent-filter>
+414        </receiver>
+415        <receiver
+415-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+416            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+416-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+417            android:directBootAware="false"
+417-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+418            android:enabled="false"
+418-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+419            android:exported="false" >
+419-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+420            <intent-filter>
+420-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+421                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+421-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+421-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+422                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+422-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+422-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+423            </intent-filter>
+424        </receiver>
+425        <receiver
+425-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+426            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+426-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+427            android:directBootAware="false"
+427-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+428            android:enabled="false"
+428-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+429            android:exported="false" >
+429-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+430            <intent-filter>
+430-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+431                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+431-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+431-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+432            </intent-filter>
+433        </receiver>
+434        <receiver
+434-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+435            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+435-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+436            android:directBootAware="false"
+436-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+437            android:enabled="false"
+437-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+438            android:exported="false" >
+438-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+439            <intent-filter>
+439-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+440                <action android:name="android.intent.action.BOOT_COMPLETED" />
+440-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+440-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+441                <action android:name="android.intent.action.TIME_SET" />
+441-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+441-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+442                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+442-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+442-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+443            </intent-filter>
+444        </receiver>
+445        <receiver
+445-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+446            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+446-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+447            android:directBootAware="false"
+447-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+448            android:enabled="@bool/enable_system_alarm_service_default"
+448-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+449            android:exported="false" >
+449-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+450            <intent-filter>
+450-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+451                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+451-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+451-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+452            </intent-filter>
+453        </receiver>
+454        <receiver
+454-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+455            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+455-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+456            android:directBootAware="false"
+456-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+457            android:enabled="true"
+457-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+458            android:exported="true"
+458-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+459            android:permission="android.permission.DUMP" >
+459-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+460            <intent-filter>
+460-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+461                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+461-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+461-->[androidx.work:work-runtime:2.7.0] C:\Users\dyuta\.gradle\caches\transforms-3\d3045facc72c3c3a100b60ed8dbd4995\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+462            </intent-filter>
+463        </receiver>
+464
+465        <meta-data
+465-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\dyuta\.gradle\caches\transforms-3\436aa23024aa7fb639995150ff9de532\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+466            android:name="com.google.android.gms.version"
+466-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\dyuta\.gradle\caches\transforms-3\436aa23024aa7fb639995150ff9de532\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+467            android:value="@integer/google_play_services_version" />
+467-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\dyuta\.gradle\caches\transforms-3\436aa23024aa7fb639995150ff9de532\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+468
+469        <service
+469-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8d74e21bd5a21c4c4ff7dedd22091fe3\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+470            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+470-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8d74e21bd5a21c4c4ff7dedd22091fe3\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+471            android:exported="false" >
+471-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8d74e21bd5a21c4c4ff7dedd22091fe3\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+472            <meta-data
+472-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8d74e21bd5a21c4c4ff7dedd22091fe3\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+473                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+473-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8d74e21bd5a21c4c4ff7dedd22091fe3\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+474                android:value="cct" />
+474-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8d74e21bd5a21c4c4ff7dedd22091fe3\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+475        </service>
+476        <service
+476-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8019d4eac95b4a8c064319d47e131dc2\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+477            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+477-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8019d4eac95b4a8c064319d47e131dc2\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+478            android:exported="false"
+478-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8019d4eac95b4a8c064319d47e131dc2\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+479            android:permission="android.permission.BIND_JOB_SERVICE" >
+479-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8019d4eac95b4a8c064319d47e131dc2\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+480        </service>
+481
+482        <receiver
+482-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8019d4eac95b4a8c064319d47e131dc2\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+483            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+483-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8019d4eac95b4a8c064319d47e131dc2\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+484            android:exported="false" />
+484-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dyuta\.gradle\caches\transforms-3\8019d4eac95b4a8c064319d47e131dc2\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+485        <receiver
+485-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+486            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+486-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+487            android:directBootAware="false"
+487-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+488            android:enabled="true"
+488-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+489            android:exported="true"
+489-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+490            android:permission="android.permission.DUMP" >
+490-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+491            <intent-filter>
+491-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+492                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+492-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+492-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+493            </intent-filter>
+494            <intent-filter>
+494-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+495                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+495-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+495-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+496            </intent-filter>
+497            <intent-filter>
+497-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+498                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+498-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+498-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+499            </intent-filter>
+500            <intent-filter>
+500-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+501                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+501-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+501-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dyuta\.gradle\caches\transforms-3\2782b15889c2b99ca748f30ecb26fb25\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+502            </intent-filter>
+503        </receiver>
+504
+505        <service
+505-->[androidx.room:room-runtime:2.2.5] C:\Users\dyuta\.gradle\caches\transforms-3\cb7ad3520b7c8e40f9365d8597496fac\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+506            android:name="androidx.room.MultiInstanceInvalidationService"
+506-->[androidx.room:room-runtime:2.2.5] C:\Users\dyuta\.gradle\caches\transforms-3\cb7ad3520b7c8e40f9365d8597496fac\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+507            android:directBootAware="true"
+507-->[androidx.room:room-runtime:2.2.5] C:\Users\dyuta\.gradle\caches\transforms-3\cb7ad3520b7c8e40f9365d8597496fac\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+508            android:exported="false" />
+508-->[androidx.room:room-runtime:2.2.5] C:\Users\dyuta\.gradle\caches\transforms-3\cb7ad3520b7c8e40f9365d8597496fac\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+509    </application>
+510
+511</manifest>

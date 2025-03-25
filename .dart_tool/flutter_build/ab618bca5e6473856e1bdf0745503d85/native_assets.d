@@ -1,0 +1,1 @@
+ C:\\Users\\dyuta\\Documents\\dating_app\\dating_app\\.dart_tool\\flutter_build\\ab618bca5e6473856e1bdf0745503d85\\native_assets.yaml: 
